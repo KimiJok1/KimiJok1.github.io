@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(35,35,35,1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner {
+    background-color: rgba(244,244,244,1);
+    width: 99vw;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.banner {
+    margin: 0 4px;
+}
+
+.center {
+    position: absolute;
+    top: 1%;
+}
