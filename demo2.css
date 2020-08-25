@@ -5,14 +5,22 @@ body {
 table {
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  td, th {
+td, th {
     border: 5px solid #FFFFFF;
     text-align: center;
     padding: 8px;
-  }
+}
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
+
+img {
+    border-radius: 5px;
+} 
+
+iframe {
+    border-radius: 5px;
+}
