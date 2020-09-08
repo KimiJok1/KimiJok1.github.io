@@ -3,6 +3,9 @@
     <head>
         <title>Demo 1</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="demo1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Isoin otsikko</h1>
@@ -32,7 +35,7 @@
 
         <h2>Linkkejä</h2>
         <h3>Ulkoiset sivut</h3>
-        <p>Käytä koko URL:ää.</p>
+        <p id="tarkein">Käytä koko URL:ää.</p>
 		<p>Linkki alkaa tagilla a (anchor), href (reference) kertoo mihin linkki vie. Tagien väliin tulee teksti, minkä lukija lukee. <br>
 		Jos haluat avata sivun toiselle välilehdelle, lisää target-attribuutti ja anna sen arvoksi _blank.</p>
 
@@ -47,7 +50,7 @@
 		Jos sivu on alikansiossa, viitataan polulla alikansioon, esim. a href="./alikansio/sivu2.html."<br>
 		Jos sivu on rinnakkaisessa kansiossa, polkuun tulee alkuun viittaus ylöspäin, esim. a href="../sivukansio/sivu3.html".</p>
 
-		<h3>Kuvat</h3>
+		<h3 class="kuvateksti">Kuvat</h3>
 		<p>Kuvat lisätään tagilla img. Pakollinen attribuutti on alt (alternative), johon kirjoitetaan vaihtoehto, jos kuva ei toimi. Toinen pakollinen on src (source), jossa kerrotaan mistä kuva löytyy.</p>
 		
 		<p><img src="./kuvat/otus.jpg" alt="otus"></p>
