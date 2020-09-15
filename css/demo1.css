@@ -3,7 +3,7 @@ body {
     font-size: 1.3em;
     font-weight: bold;
     background: rgba(255,255,255,1);
-    background-image: url("kuvat/tumma.jpg");
+    background-image: url("./../kuvat/tumma.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
