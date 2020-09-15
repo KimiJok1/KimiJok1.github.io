@@ -3,3 +3,19 @@ body {
     color: rgba(255,255,255,1);
     font-family: 'Open Sans', sans-serif;
 }
+
+a:link {
+    color: white;
+}
+  
+a:visited {
+    color: white;
+}
+  
+a:hover {
+    color: white;
+}
+  
+a:active {
+    color: white;
+}
