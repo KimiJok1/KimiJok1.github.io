@@ -8,14 +8,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Kalatori</h1>
+        <header>
+            <ul class="header">
+                <li><a class="active header" href="#kalatori">Kalatori</a></li>
+                <li><a class="header" href="#markkinat">2020 Markkinat</a></li>
+                <li><a class="header" href="#hinnasto">Hinnasto</a></li>
+                <li><a class="header" href="#sijainti">Missä olemme</a></li>
+                <li><a class="header" href="#yhteys">Ota yhteyttä</a></li>
+            </ul>
+        </header>
+        <h1 id="kalatori">Kalatori</h1>
         <p><img src="./kuvat/kala.jpg" alt="kala"></p>
         <h5>Jem Sahagunin kuva</h5>
         <p><strong>Kalatori</strong> on kalastajalle mahdollisuus <b>myydä</b> saaliinsa tuoreena suoraan vähittäisasiakkaille. <br>
         Se sijaitsee ihanteellisessa paikassa aivan vanhan Pirkkalankylän  keskustassa. <br>
         Torilla pidetään <mark>markkinapäiviä</mark> ja olemme saaneet torille vakituisen asiakaskunnan. <br>
         Julkinen liikenne suosii toria, sijainti on nimen mukaisesti kalasataman vieressä ja linja-autopysäkki on 50 metrin päässä.</p>
-        <h3>Vuoden 2020 markkinat </h3>
+        <h3 id="markkinat">Vuoden 2020 markkinat </h3>
+        <div class="merenelavat">
+            <p><img class="merenelava" src="./kuvat/pienikala.jpg" alt="pienikala"></p>
+            <p><img class="merenelava" src="./kuvat/mustekala.jpg" alt="mustekala"></p>
+            <p><img class="merenelava" src="./kuvat/rapu.jpg" alt="rapu"></p>
+        </div>
         <ul>
             <li><del>Kevätmarkkinat</del> lauantai 11.4. klo 7–16</li>
             <li>Juhannusmarkkinat tiistai 16.6. klo 7–15</li>
@@ -23,7 +37,7 @@
             <li>Syysmarkkinat tiistai 13.10. klo 7–15</li>
             <li>Joulumarkkinat tiistai 15.12. klo 7–15</li>
         </ul> 
-        <h3>Hinnasto</h3>
+        <h3 id="hinnasto">Hinnasto</h3>
         <p><img src="./kuvat/tori.jpg" alt="tori"></p>
         <h4>Paikkakartta</h4>
         <table style="width:25%">
@@ -108,9 +122,9 @@
                 <td>96</td>
             </tr>
         </table>
-        <h3>Sijainti</h3>
+        <h3 id="sijainti">Sijainti</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906.6422720834641!2d23.55397681622123!3d61.45316514598497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ed9fa83d6429f%3A0xb142d41e406c097d!2sKierikantie%2018%2C%2033980%20Pirkkala!5e0!3m2!1sfi!2sfi!4v1598336442082!5m2!1sfi!2sfi" width="500" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-        <h4>Kimi Jokelainen &copy;</h4>
+        <h4 id="yhteys">Kimi Jokelainen &copy;</h4>
     </body>
 </html>

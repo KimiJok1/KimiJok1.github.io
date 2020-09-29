@@ -24,3 +24,50 @@ img {
 iframe {
     border-radius: 5px;
 }
+
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+header {
+    text-align: center;
+    float: center;
+}
+  
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 4px;
+}
+  
+li a:hover:not(.active) {
+    background-color: #DDD;
+}
+
+li a:hover {
+    background-color: #DDDDDD;
+}
+
+.active {
+    background-color: #BBBBBB;
+}
+
+.merenelavat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
