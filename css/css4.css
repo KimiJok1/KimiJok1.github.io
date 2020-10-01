@@ -16,7 +16,7 @@ body {
     background-color: rgb(44,44,44);
     font-size:25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    animation: fade 0s linear 0;
+    animation: fade 2s linear 10s 0; /* Vaihda 0 => 1 */
 }
 
 .ded {
@@ -40,5 +40,5 @@ body {
 
 h1 {
     text-align: center;
-    animation: rgbspin 2s linear infinite;
+    animation: rgbspin 2s linear infinite; /* Vaihda infinite => 10 */
 }
