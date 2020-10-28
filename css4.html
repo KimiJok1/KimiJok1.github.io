@@ -9,30 +9,16 @@
     </head>
     <body>
         <div id="center">
-            <h1>yeet</h1>
+            <h1 id="yeet">yeet</h1>
         </div>
     </body>
     <script>
-        /* Poista kommentti jos haluat räjähdyksen. */
-        
-        /*var boom = document.createElement("img")
-        boom.src = "./kuvat/boom.gif"
-        boom.id = "center"
-        setTimeout(() => { 
-            document.getElementById("center").appendChild(boom);
-            document.getElementById("center").firstElementChild.remove();
-        },10000);
-        setTimeout(() => { 
-            document.getElementById("center").firstElementChild.remove();
-        },10500);
-        setTimeout(() => { 
-            var ded = document.createElement("video")
-            ded.setAttribute("autoplay","true")
-            ded.setAttribute("muted","true")
-            ded.class = "fit"
-            ded.id = "center"
-            ded.src = "./kuvat/youdied.mp4"
-            document.getElementById("center").appendChild(ded);
-        },10900);*/
+        let spin = true
+        document.getElementById("yeet").addEventListener("mouseover", function(e) {
+            this.style.animationPlayState = "paused";
+        },false)
+        document.getElementById("yeet").addEventListener("mouseout", function(e) {
+            this.style.animationPlayState = "running";
+        },false)
     </script>
 </html>
