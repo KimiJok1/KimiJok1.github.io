@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: [left] 10rem auto 10rem [right];
+    grid-template-rows: 5rem auto 5rem;
+    grid-template-areas: 
+    "head head head"
+    "panleft mainbody panright"
+    "foot foot foot";
+}
+
+header {
+    background-color: orangered;
+    grid-area: head;
+}
+
+.leftpanel {
+    background-color: orange;
+    grid-area: panleft;
+}
+
+main {
+    background-color: yellow;
+    grid-area: mainbody;
+}
+
+.rightpanel {
+    background-color: greenyellow;
+    grid-area: panright;
+}
+
+footer {
+    background-color: yellowgreen;
+    grid-area: foot;
+}
+
+@media screen and (max-width: 50rem) {
+    .leftpanel {
+        grid-column-end: left;
+        display: none;
+    }
+    .rightpanel {
+        grid-column-start: right;
+        display: none;
+    }
+    main {
+        grid-column-start: left;
+        grid-column-end: right;
+    }
+}

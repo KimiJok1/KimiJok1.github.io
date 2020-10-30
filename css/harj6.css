@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 3;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #333 0px 0 6px;
+}
+
+header {
+    background: linear-gradient(50deg, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+
+nav {
+    background: linear-gradient(50deg, #323232 0%, #3F3F3F 50%, #1C1C1C 100%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+
+article {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+img {
+    background: rgb(235, 235, 235);
+}
+
+.right-sidebar {
+    background-image: linear-gradient(-135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+footer {
+    background: linear-gradient(50deg, #323232 0%, #3F3F3F 50%, #1C1C1C 100%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+
+.container, .content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 6;
+        order: 1;
+    }
+    article {
+        flex: 4;
+        order: 1;
+        border: 1px black;
+        line-height: normal;
+    }
+    article > h1 {
+        padding-top: 2%;
+    }
+    article > p {
+        padding-top: 2%;
+        max-width: 90%;
+        margin: auto;
+    }
+    img  {
+        flex: 2;
+        order: 2;
+        object-fit: cover;
+    }
+    .right-sidebar  {
+        flex: 1;
+        order: 3;
+        min-height: 82.7vh;
+    }
+}
