@@ -18,29 +18,56 @@
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <button class="dropbtn btn btn-link" id="hover">Tietoja
-                        <i class="fa fa-angle-down"></i>
+                    <div class="dropdown">
+                        <button class="dropbtn btn btn-link" id="hover">Tietoja
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="header">
+                                <h2>Mega Menu</h2>
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <h3>Category 1</h3>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                                <div class="column">
+                                    <h3>Category 2</h3>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                                <div class="column">
+                                    <h3>Category 3</h3>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <button class="btn btn-link">Yhteystiedot
                     </button>
                 </li>
                 <li class="nav-item active">
-                    <button class="dropbtn btn btn-link">Yhteystiedot
-                    </button>
-                </li>
-                <li class="nav-item active">
-                    <button class="dropbtn btn btn-link">Kirjaudu
+                    <button class="btn btn-link">Kirjaudu
                         <i class="fa fa-lock"></i>
                     </button>
                 </li>
                 <li class="nav-item active">
                     <div class="btn-group" role="group" aria-label="Language">
-                        <button class="btn btn-link">
+                        <button class="btn btn-link language">
                             <b>FI</b>
                         </button>
-                        <button class="btn btn-link">
-                            SE
+                        <button class="btn btn-link language">
+                            | SE
                         </button>
-                        <button class="btn btn-link">
-                            EN
+                        <button class="btn btn-link language">
+                            | EN
                         </button>
                     </div>
                 </li>
@@ -50,8 +77,10 @@
               </ul>
             </div>
         </nav>
-        <div class="dropdown-content"></div>
         <section id="butterfly">
+            <div class="full-overlay">
+            </div>
+            <img id="logo" src="./kuvat/Logo-1.svg" alt="logo">
             <div class="overlay">
             </div>
             <div class="textbox">
@@ -61,10 +90,99 @@
                     kilpailukyvyn kehittäjä. Teemme aktiivista yhteistyötä työelämän kanssa ja toimimme <br>
                     laajassa kansainvälisessä verkostossa. Opiskelijoita meillä on 3500 ja henkilöstöä noin 320. </h2>
             </div>
-            <div class="full-overlay">
-                
-            </div>
-            <img id="logo" src="./kuvat/Logo-1.svg" alt="logo">
         </section>
+        <section id="haut">
+            <div class="card-template">
+                <img src="./kuvat/book-4.jpg" alt="card-1" class="card-banner-top">
+                <h3 class="card-banner-text">Lokakuun yhteishaku</h3>
+                <h2 class="card-text">Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit. Vestibulum eleifend et orci at<br>
+                    dignissim. Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit. Vestibulum eleifend<br>
+                    et orci at dignissim. </h3>
+                <button class="btn btn-dark">Hae meille</button>
+            </div>
+            <div class="card-template">
+                <img src="./kuvat/book-4.jpg" alt="card-1" class="card-banner-top">
+                <h3 class="card-banner-text">Aliquam erat volutpat <br> rhoncus</h3>
+                <h2 class="card-text">Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit. Vestibulum eleifend et orci at<br>
+                    dignissim. Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit. Vestibulum eleifend<br>
+                    et orci at dignissim. </h3>
+                <button class="btn btn-dark">Lue lisää</button>
+            </div>
+            <div class="card-template">
+                <img src="./kuvat/book-4.jpg" alt="card-1" class="card-banner-top">
+                <h3 class="card-banner-text">Sed id praesent felis ac <br>
+                    lorem himenaeos</h3>
+                <h2 class="card-text">Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit. Vestibulum eleifend et orci at<br>
+                    dignissim. Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit. Vestibulum eleifend<br>
+                    et orci at dignissim. </h3>
+                <button class="btn btn-dark">Lue lisää</button>
+            </div>
+        </section>
+        <hr>
+        <section id="info1">
+            <img src="./kuvat/book-4.jpg" alt="card-1" class="section-banner">
+            <div class="info-text">
+                <h5 class="section-banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                    elit. Morbi sit amet fringilla
+                </h5>
+                <h5 class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla purus. Nulla aliquam mollis vestibulum. Proin 
+                    luctus magna mauris, nec feugiat nisi tempor id. Mauris quis rhoncus nibh. Morbi aliquam, lorem sed laoreet dapibus, odio lorem 
+                    eleifend risus, eu eleifend purus orci at nulla. Suspendisse at euismod mauris. Donec mattis magna risus. Etiam elit metus, rhoncus 
+                    ut egestas at, ultrices vitae orci. Aliquam erat volutpat. Sed id felis ac augue vehicula venenatis at porta ligula. Praesent augue 
+                    purus, tempus vitae pulvinar ac, cursus at enim. Mauris eleifend tincidunt neque vel tristique. Cras sagittis justo nec lacus iaculis 
+                    euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam fringilla interdum nisl,
+                    vitae semper neque facilisis non. Etiam eu erat quis felis pretium vehicula.
+                </h5>
+                <button class="btn btn-link btn-color-custom">Lue lisää
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section id="info2">
+            <div class="info-text-reverse">
+                <h5 class="section-banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                    elit. Morbi sit amet fringilla
+                </h5>
+                <h5 class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla purus. Nulla aliquam mollis vestibulum.
+                    Proin luctus magna mauris, nec feugiat nisi tempor id. Mauris quis rhoncus nibh. Morbi aliquam, lorem sed laoreet
+                    dapibus, odio lorem eleifend risus, eu eleifend purus orci at nulla. Suspendisse at euismod mauris. Donec mattis
+                    magna risus. Etiam elit metus, rhoncus ut egestas at, ultrices vitae orci. Aliquam erat volutpat. Sed id felis ac augue vehicula venenatis at porta ligula. Praesent
+                    augue purus, tempus vitae pulvinar ac, cursus at enim. Mauris eleifend tincidunt neque vel tristique. Cras sagittis justo
+                    nec lacus iaculis euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam fringilla interdum nisl, vitae semper neque facilisis non. Etiam eu erat quis felis pretium vehicula.
+                </h5>
+                <button class="btn btn-link btn-color-custom">Lue lisää
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+            <img src="./kuvat/book-4.jpg" alt="card-1" class="section-banner-reverse">
+        </section>
+        <hr>
+        <section id="info3">
+            <img src="./kuvat/book-4.jpg" alt="card-1" class="section-banner">
+            <div class="info-text">
+                <h5 class="section-banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                    elit. Morbi sit amet fringilla
+                </h5>
+                <h5 class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla purus. Nulla aliquam mollis vestibulum.
+                    Proin luctus magna mauris, nec feugiat nisi tempor id. Mauris quis rhoncus nibh. Morbi aliquam, lorem sed laoreet dapibus, odio lorem 
+                    eleifend risus, eu eleifend purus orci at nulla. Suspendisse at euismod mauris. Donec mattis magna risus. Etiam elit metus, rhoncus 
+                    ut egestas at, ultrices vitae orci. Aliquam erat volutpat. Sed id felis ac augue vehicula venenatis at porta ligula. Praesent augue 
+                    purus, tempus vitae pulvinar ac, cursus at enim. Mauris eleifend tincidunt neque vel tristique. Cras sagittis justo nec lacus iaculis
+                    euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam fringilla interdum nisl,
+                    vitae semper neque facilisis non. Etiam eu erat quis felis pretium vehicula.
+                </h5>
+                <button class="btn btn-link btn-color-custom">Lue lisää
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+        <footer></footer>
     </body>
 </html>

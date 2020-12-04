@@ -1,5 +1,6 @@
 body {
     font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif !important; 
+    overflow-x: hidden;
 }
 
 .bg-custom {
@@ -28,20 +29,22 @@ body {
     background-image: url("../kuvat/book-4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 883px;
+    position: relative;
+    width: 100vw;
+    height: 46vw;
 }
 
 .dropdown-content {
     width: 25%;
     height: 200px;
+    position: relative;
     display: none;
     background-color: #3A405A;
-    z-index: -1;
+    z-index: 10;
 }
 
-.btn:hover .dropdown-content {
-    display: block;
+.dropdown:hover .dropdown-content {
+    display: block !important;
 }
 
 .overlay {
@@ -49,18 +52,33 @@ body {
     opacity: 0.6;
     width: 100%;
     height: 35%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 51.8%;
 }
 
 .full-overlay {
     background-color: #3A405A;
     opacity: 0.6;
     width: 100%;
-    height: 883px;
-    position: absolute;
+    height: 100%;
+    position: relative;
     bottom: 0;
     z-index: 1;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+#hover:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
 }
 
 #logo {
@@ -69,36 +87,211 @@ body {
     width: 17%;
     height: auto;
     z-index: 2;
+    bottom: 100%;
 }
 
 h1 {
     opacity: 1;
-    color: white;
-    position: absolute;
+    color: #3A405A;
+    position: relative;
 }
 
 h2 {
     opacity: 1;
-    color: white;
-    position: absolute;
+    color: #3A405A;
+    font-size: 1.15rem;
+    position: relative;
+}
+
+.language {
+    padding: .375rem 0.2rem .375rem 0 !important;
+}
+
+.card-text {
+    font-size: 1.25rem !important;
+    font-weight: normal;
+    text-align: center;
+    margin: 5%;
+    margin-top: 8%;
+}
+
+.card-banner-text {
+    text-align: center;
+    opacity: 1;
+    color: #3A405A;
+    height: 8%;
+    margin-top: 5%;
+    font-weight: bold;
 }
 
 .textbox {
     width: 100%;
     height: 35%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 82.5%;
     z-index: 2;
 }
 
 .textbox h1 {
-    margin: 3% 0 0 6%;
-    font-size: 56px;
+    margin: 0 0 0 5%;
+    font-size: 3vw;
     font-weight: normal;
+    color: white;
+}
+
+hr {
+    width: 90% !important;
 }
 
 .textbox h2 {
-    margin: 7% 0 0 6%;
-    font-size: 32px;
+    margin: 0 0 0 5%;
+    font-size: 1.75vw;
     font-weight: normal;
+    color: white;
+}
+
+.btn-color-custom {
+    color: #3A405A !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    font-size: 1vw !important;
+    margin: 2% 0 0 -1%;
+}
+
+#haut {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info1 {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#info2 {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#info3 {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.section-banner {
+    margin: 10% 5%;
+    height: 80%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.section-banner-reverse {
+    margin: 0% 5%;
+    height: 80%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.section-banner-text {
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+.info-text-reverse {
+    font-weight: normal;
+    font-size: 2vw;
+    margin: 0% 5%;
+}
+
+.section-text {
+    margin: 2% 0 0 0;
+    font-weight: normal;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+  }
+  
+  /* Style links inside the columns */
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a background color on hover */
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-template {
+    border-radius: 6px;
+    box-shadow: 0 0 4px 0 rgba(25,25,25,0.5);
+    width: 25%;
+    height: 80%;
+    margin: 10% 5%;
+}
+
+.card-banner-top {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+.btn-dark {
+    font-weight: bold !important; 
+    position: relative;
+    color: #3A405A !important;
+    width: 80%;
+    display: block;
+    margin-top: 2%;
+    margin-left: 10%;
+    background: none !important;
+}
+
+.btn-dark:hover {
+    background: #3A405A !important;
+    color: white !important;
+}
+
+footer {
+    height: 500px;
+    background: #3A405A;
+    margin-top: 100px;
 }
