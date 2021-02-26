@@ -1,0 +1,17 @@
+<characters>
+<character>
+<charactername>pog</charactername>
+<class>Mage</class>
+<race>Human</race>
+<charisma>0</charisma>
+<intelligence>-10</intelligence>
+<dexterity>5</dexterity>
+<strength>2</strength>
+<wisdom>12</wisdom>
+<characterID>1</characterID>
+<level>0</level>
+<hitpoints>23</hitpoints>
+<classID>1</classID>
+<raceID>2</raceID>
+</character>
+</characters>

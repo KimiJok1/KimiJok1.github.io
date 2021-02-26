@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!DOCTYPE lasku[
+<!ELEMENT lentolippu (lento, matkustaja, hintatiedot)>
+
+<!ELEMENT lento (mista, minne, lahtoaika)>
+<!ELEMENT mista (#PCDATA)>
+<!ELEMENT minne (#PCDATA)>
+
+<!ELEMENT lahtoaika (kuu, paiva, tunti, min)>
+<!ELEMENT kuu (#PCDATA)>
+<!ELEMENT paiva (#PCDATA)>
+<!ELEMENT tunti (#PCDATA)>
+<!ELEMENT min (#PCDATA)>
+
+<!ELEMENT matkustaja (sukunimi, etunimi)>
+<!ELEMENT sukunimi (#PCDATA)>
+<!ELEMENT etunimi (#PCDATA)>
+
+<!ELEMENT hintatiedot (hinta, vero)>
+<!ELEMENT hinta (#PCDATA)>
+<!ELEMENT vero (#PCDATA)>
+]>
+
+<lentolippu>
+    <lento>
+        <mista></mista>
+        <minne></minne>
+        <lahtoaika>
+            <kuu></kuu>
+            <paiva></paiva>
+            <tunti></tunti>
+            <min></min>
+        </lahtoaika>
+    </lento>
+    <matkustaja>
+        <sukunimi></sukunimi>
+        <etunimi></etunimi>
+    </matkustaja>
+    <hintatiedot>
+        <hinta></hinta>
+        <vero></vero>
+    </hintatiedot>
+</lentolippu>

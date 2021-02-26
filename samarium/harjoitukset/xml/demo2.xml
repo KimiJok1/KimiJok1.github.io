@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!DOCTYPE lasku[
+<!ELEMENT lasku (saaja, lahettaja, tilaustiedot, tuotteet)>
+
+<!ELEMENT saaja (nimi, osoite, postinumero, kaupunki)>
+<!ELEMENT nimi (#PCDATA)>
+<!ELEMENT osoite (#PCDATA)>
+<!ELEMENT postinumero (#PCDATA)>
+<!ELEMENT kaupunki (#PCDATA)>
+
+<!ELEMENT lahettaja (nimi, osoite, postinumero, kaupunki)>
+<!ELEMENT nimi (#PCDATA)>
+<!ELEMENT osoite (#PCDATA)>
+<!ELEMENT postinumero (#PCDATA)>
+<!ELEMENT kaupunki (#PCDATA)>
+
+<!ELEMENT tilaustiedot (toimituspvm, korko, maksuehto, viitenumero)>
+<!ELEMENT toimituspvm (#PCDATA)>
+<!ELEMENT korko (#PCDATA)>
+<!ELEMENT maksuehto (#PCDATA)>
+<!ELEMENT viitenumero (#PCDATA)>
+
+<!ELEMENT tuotteet (tuote)>
+
+<!ELEMENT tuote (nimi, hinta, maara, alv)>
+<!ELEMENT nimi (#PCDATA)>
+<!ELEMENT hinta (#PCDATA)>
+<!ELEMENT maara (#PCDATA)>
+<!ELEMENT alv (#PCDATA)>
+]>
+
+<lasku type="">
+    <saaja>
+        <nimi>Mikko Mallikas</nimi>
+        <osoite>Kuja 1</osoite>
+        <postinumero>33820</postinumero>
+        <kaupunki>Tampere</kaupunki>
+    </saaja>
+    <lahettaja>
+        <nimi>Mikko Mallikas</nimi>
+        <osoite>Kuja 1</osoite>
+        <postinumero>33820</postinumero>
+        <kaupunki>Tampere</kaupunki>
+    </lahettaja>
+    <tilaustiedot>
+        <toimituspvm>19.2.2021</toimituspvm>
+        <korko>7.5%</korko>
+        <maksuehto>14 pv netto</maksuehto>
+        <viitenumero>1987</viitenumero>
+    </tilaustiedot>
+    <tuotteet>
+        <tuote>
+            <nimi>ZOM by krow</nimi>
+            <hinta>0.00€</hinta>
+            <maara>1</maara>
+            <alv>24%</alv>
+        </tuote>
+        <tuote>
+            <nimi>snek by kimi</nimi>
+            <hinta>0.00€</hinta>
+            <maara>1</maara>
+            <alv>24%</alv>
+        </tuote>
+        <summa>0.00€</summa>
+    </tuotteet>
+</lasku>
+

@@ -1,0 +1,25 @@
+{
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "bold",
+    "editor.fontLigatures": "common-ligatures",
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.preferredDarkColorTheme": "SynthWave '84",
+    "workbench.preferredHighContrastColorTheme": "SynthWave '84",
+    "workbench.preferredLightColorTheme": "SynthWave '84",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "SynthWave '84",
+    "explorer.compactFolders": false,
+    "workbench.colorCustomizations": {
+    
+    },
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.tree.renderIndentGuides": "always",
+    "customizeUI.titleBar": "regular",
+    "synthwave84.brightness": 1,
+    "workbench.tree.indent": 16,
+    "customizeUI.activityBar": "regular",
+    "customizeUI.activityBarHideSettings": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "block",
+}
