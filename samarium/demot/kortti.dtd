@@ -1,8 +1,0 @@
-<!DOCTYPE kortti[
-<!ELEMENT kortti (lahettaja, saaja, toivotus)>
-<!ATTLIST kortti tyyppi (sahko|pahvi) #REQUIRED>
-<!ELEMENT lahettaja (#PCDATA)>
-<!ELEMENT saaja (#PCDATA)>
-<!ELEMENT toivotus (#PCDATA)>
-<!ATTLIST toivotus tyyli (toiveikas|uhkaava) #IMPLIED>
-]>

@@ -22,30 +22,19 @@
             </span>
         </nav>
         <ul class="list-group">
-            <?php
-                $files = scandir('./demot/');
-                sort($files,SORT_NATURAL | SORT_FLAG_CASE);
-                foreach($files as $file) {
-                    if (substr($file, 0, 4) == "demo") {
-                        echo '<a class="list-group-item list-group-item-action" href="./demot/' . substr($file, 0, -4) . '">Demo ' . substr(substr($file, 4, strlen($file)), 0, -4) . ' </a>';
-                    }
-                }
-                ?>
+            <a class="list-group-item list-group-item-action" href="./demo1.html">Demo 1</a>
+            <a class="list-group-item list-group-item-action" href="./demo2.html">Demo 2</a>
+            <a class="list-group-item list-group-item-action" href="./demo7a.html">Demo 7a</a>
+            <a class="list-group-item list-group-item-action" href="./demo7b.html">Demo 7b</a>
         </ul>
-        <ul class="list-group">
-            <?php
-                $files = scandir('./harj/');
-                sort($files,SORT_NATURAL | SORT_FLAG_CASE);
-                foreach($files as $file) {
-                    if (substr($file, 0, 4) == "harj") {
-                        echo '<a class="list-group-item list-group-item-action" href="./harj/' . substr($file, 0, -4) . '">Harjoitus ' . substr(substr($file, 4, strlen($file)), 0, -4) . ' </a>';
-                    }
-                }
-            ?>
+        <ul class="list-group">  
+            <a class="list-group-item list-group-item-action" href="./harj1.html">Harjoitus 1</a>
+            <a class="list-group-item list-group-item-action" href="./harj2.html">Harjoitus 2</a>
+            <a class="list-group-item list-group-item-action" href="./harj6.html">Harjoitus 6</a>
+            <a class="list-group-item list-group-item-action" href="./harj7.html">Harjoitus 7</a>
         </ul>
-        <ul class="list-group">
+        <ul class="list-group">  
             <a class="list-group-item list-group-item-action" href="./css4.html">CSS4 -demo</a>
-            <a class="list-group-item list-group-item-action" href="./samarium/index.php">Samarium</a>
         </ul>
     </body>
 </html>
