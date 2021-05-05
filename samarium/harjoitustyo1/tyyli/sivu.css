@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-image: url('./kuvat/kuva01.jpg');
+    background-repeat: repeat-x;
+    background-color: #222;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Tekstialueet */
+
+header{
+    height: 110px;
+    width: 80%;
+}
+
+#keskiosa {
+    min-height: 600px;
+    width: 80%;
+    margin: 15px auto;
+    text-align: left;
+}
+
+footer{
+    background-image: url('./kuvat/kuva01.jpg');
+    background-repeat: repeat-x;
+    height: 80px;
+    width: 100%;
+}
+
+#kotisivulinkki {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #FFF;
+    width: 500px;
+    position: absolute;
+    top: 70px;
+    right: 10%;
+}
+
+#teksti {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #FFF;
+}
+
+article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Tekstit */
+
+h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: -1px;
+    font-size: 1.3em;
+    margin-bottom: 3px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-left: 15px; 
+    font-size: 0.9em;
+}
+
+/* Kaikki linkit (linkki kotisivulle, navigointilinkit ja tekstissä olevat linkit) */
+
+a.kotilinkki {
+    font-size: 3.0em;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: #ff5656;
+}
+
+a:active.kotilinkki {
+    color: #ff5656;
+}
+
+a:hover.kotilinkki {
+    color: #ff5656;
+}
+
+a.navilinkki {
+    font-size: 1.1em;
+    letter-spacing: -1px;
+    text-decoration: none;
+    border-bottom: 4px solid #ff5656;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #F4F4F9;
+}
+
+a:active.navilinkki {
+    color: #ff5656;
+}
+
+a:hover.navilinkki {
+    color: #ff5656;
+}

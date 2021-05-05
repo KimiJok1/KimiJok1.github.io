@@ -9,7 +9,7 @@
         include "./partials/alku.php";
         include "./partials/navi.php";
 
-        $sallitut = array("sqlharj1","demo1","demo2","demo3","demo4","demo4_lomakkeenkasittelija","demo5","demo6","demo7","demo8","demo9","demo10","demo11","demo12a","demo12b","demo13","harj1","harj2","harj3","harj4","harj5","harj6","harj7","harj8","harj9","harj10","harj11","harj12","harj13","harj14","harj15");
+        $sallitut = array("uutiset","sqlharj1","demo1","demo2","demo3","demo4","demo4_lomakkeenkasittelija","demo5","demo6","demo7","demo8","demo9","demo10","demo11","demo12a","demo12b","demo13","demo16","demo16b","harj1","harj2","harj3","harj4","harj5","harj6","harj7","harj8","harj9","harj10","harj11","harj12","harj13","harj14","harj15","harj16");
 
         if (isset($_GET['sivu']) && isset($_GET['kansio'])) {
             $sivu = $_GET['sivu'];
@@ -32,7 +32,7 @@
         }
         
 
-        include "./partials/loppu.php";
+        include "./loppu.php";
     } else {
     ?>
         <head>

@@ -40,7 +40,9 @@
                     echo '<li><a href="./index.php?sivu=' . substr($file, 0, -4) . '&kansio=harjoitukset/xml">XML Harjoitus ' . substr(substr($file, 4, strlen($file)), 0, -4) . ' </a></li>';
                 }
             }
-        ?>
+            ?>
+        <li><a href="../uutiset/index.php">Uutinen</a></li>
+        <li><a href="../harjoitustyo1/index.php">Harjoitustyö</a></li>
     </ul>
 </div>
 <hr>
