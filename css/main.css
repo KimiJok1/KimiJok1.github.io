@@ -1,48 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* bold 500 */
+  font-weight: 500;
+  overflow-x: hidden;
 }
 
 .list-group-left {
-    margin: 20px 10px 20px 20px;
-    padding: 0;
+  margin: 20px 10px 20px 20px;
+  padding: 0;
 }
 
 .list-group-right {
-    margin: 20px 20px 20px 10px;
-    padding: 0;
+  margin: 20px 20px 20px 10px;
+  padding: 0;
 }
 
 .side {
-    width: 50%;
+  width: 50%;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
+}
+
+.logo {
+  margin-right: 8px;
+  border-radius: 100%;
+}
+
+.navbar {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .no-outline {
-    outline: none;
-    border: none;
-    padding: 0;
-    padding-left: 4px;
-    font-size: 24px;
+  outline: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 24px;
 }
 
 .banner {
-    width: 100%;
-    padding: 20px;
-    background: rgb(255,73,216);
-    background: linear-gradient(90deg, rgba(255,73,216,1) 0%, rgba(255,117,0,1) 100%);
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    text-shadow: 0px 0px 4px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+  width: 100%;
+  padding: 16px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.project {
+  height: 400px !important;
+}
+
+.align-start {
+  align-items: flex-start !important;
+}
+
+.align-end {
+  align-items: flex-end !important;
+}
+
+.align-end p {
+  text-align: right;
+}
+
+.gradient {
+  background: rgb(255, 73, 216);
+  background: linear-gradient(90deg, rgba(255, 73, 216, 1) 0%, rgb(255, 0, 0) 100%);
+}
+
+.fade-left {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%) !important;
+}
+
+.fade-right {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 100%) !important;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(8px);
+  margin: -8px -8px -8px -8px;
+  transform: scale(1.2);
 }
