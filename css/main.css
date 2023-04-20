@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -32,6 +32,35 @@ body {
 .logo {
   margin-right: 8px;
   border-radius: 100%;
+}
+
+.lead a {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo-title {
+  font-weight: 700;
+  margin: 0 !important;
+  margin-left: 4px !important;
+}
+
+.navbar-text {
+  font-weight: 700;
+}
+
+.display-4 {
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
 }
 
 .navbar {
