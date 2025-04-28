@@ -34,8 +34,9 @@ body {
   border-radius: 100%;
 }
 
-.lead a {
-  font-weight: 700;
+.lead {
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .navbar-brand {
@@ -45,9 +46,10 @@ body {
 }
 
 .logo-title {
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 !important;
   margin-left: 4px !important;
+  font-size: 18px;
 }
 
 .navbar-text {
@@ -55,19 +57,21 @@ body {
 }
 
 .display-4 {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .title {
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .navbar {
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
-  padding-left: 12px !important;
-  padding-right: 12px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
 .no-outline {
@@ -75,13 +79,14 @@ body {
   border: none !important;
   padding: 0 !important;
   margin: 0 !important;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .banner {
   width: 100%;
   padding: 16px;
-  height: 240px;
+  padding-bottom: 8px;
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +97,7 @@ body {
 }
 
 .project {
-  height: 400px !important;
+  height: 280px !important;
 }
 
 .align-start {
@@ -108,8 +113,8 @@ body {
 }
 
 .gradient {
-  background: rgb(255, 73, 216);
-  background: linear-gradient(90deg, rgba(255, 73, 216, 1) 0%, rgb(255, 0, 0) 100%);
+  background: rgb(96, 55, 161);
+  background: linear-gradient(90deg, rgba(96, 55, 161, 1) 0%, rgb(196, 33, 123) 100%);
 }
 
 .fade-left {
@@ -129,4 +134,9 @@ body {
   filter: blur(8px);
   margin: -8px -8px -8px -8px;
   transform: scale(1.2);
+  user-select: none;
+}
+
+.bg-dark {
+  background: rgb(24, 24, 24) !important;
 }
